@@ -1,33 +1,32 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-<meta charset="UTF-8"/>
-<title>Samucão</title>
-
+    <title>
+        Imersão Dev - Aula 05
+    </title>
+    <link href="https://mariosouto.com/imersaodev-aluraflix/style.css" rel="stylesheet" /> 
+    <script src="https://mariosouto.com/imersaodev-aluraflix/scripts.js"></script>
 </head>
 
-
 <body>
-<h1>Título de nível 1</h1>
-<h2>Título de nível 2</h2>
-<h3>Título de nível 3</h3>
-<h4>Título de nível 4</h4>
-<h5>Título de nível 5</h5>
-<h6>Título de nível 6</h6>
-
-<p>Primeiro parágrafo do texto.</p>
-<p>Segundo parágrafo do texto.</p>
-<p>Terceiro parágrafo do texto.</p>
-	<p> Hello World 
-	<h1> Hello World </h1> </p>
-
-
-<!-- <a href="pagina2.html">Página 2</a> -->
-<a href="https://www.exathum.com.br/">Página 2</a>
-
-<img src="Captura de tela de 2024-06-04 00-01-53.png" alt="User Image" height="220">
-
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
 </body>
 
 </html>
